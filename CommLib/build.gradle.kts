@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.younge.screenlib"
+    namespace = "com.younge.commlib"
     compileSdk = 35
 
     defaultConfig {
@@ -45,13 +45,13 @@ dependencies {
 afterEvaluate {
     publishing{
         publications {
-         create<MavenPublication>("release"){
-             groupId = "com.younge"
-             artifactId = "screenlib"
-             version = "1.0.1"
+            create<MavenPublication>("release"){
+                groupId = "com.younge"
+                artifactId = "commlib"
+                version = "1.0.0"
 
-             from(components["release"])
-         }
+                from(components["release"])
+            }
         }
     }
 }

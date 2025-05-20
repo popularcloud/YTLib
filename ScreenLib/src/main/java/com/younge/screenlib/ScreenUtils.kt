@@ -1,4 +1,4 @@
-package com.example.app.utils
+package com.younge.screenlib
 
 import android.content.Context
 import android.util.TypedValue

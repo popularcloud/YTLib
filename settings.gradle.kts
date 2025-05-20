@@ -23,3 +23,4 @@ dependencyResolutionManagement {
 rootProject.name = "TYLib"
 include(":app")
 include(":ScreenLib")
+include(":CommLib")

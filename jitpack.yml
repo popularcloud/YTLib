@@ -1,5 +1,5 @@
 jdk:
-  - openjdk11
+  - openjdk17
 
 #  如果还要指定特别的版本，还需要输入以下内容：
 #before_install:

@@ -1,0 +1,7 @@
+jdk:
+  - openjdk11
+
+#  如果还要指定特别的版本，还需要输入以下内容：
+#before_install:
+#  - sdk install java 11.0.10-open
+#  - sdk use java 11.0.10-open

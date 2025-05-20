@@ -48,7 +48,7 @@ afterEvaluate {
             create<MavenPublication>("release"){
                 groupId = "com.younge"
                 artifactId = "commlib"
-                version = "1.0.0"
+                version = "1.0.2"
 
                 from(components["release"])
             }
